@@ -46,6 +46,18 @@
   cursor: pointer;
   }  
 
+::-webkit-scrollbar{
+  width: 15px;
+  height: 60px;
+}
+
+
+::-webkit-scrollbar-thumb{
+  background: #eb6e30;
+  border-radius: 15px;
+  overflow:scroll;
+}
+
  @media screen and (max-width: 1374px) {    
   .search input{
     width: 250px;
