@@ -1,0 +1,96 @@
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  h2 {
+    width: 90vw;
+    height: 30px;
+    margin: auto;
+    padding: 5px;
+    color: white;
+    background-color: #279e09;
+    text-align: center;
+  }
+  
+  h4{
+    color: #ffffff;
+  }
+
+  hr{
+    border-color: #ff7800;
+  }
+  .price{
+    width: 250px;
+    height: 60px;
+    position: relative;
+    margin-top: 20px;
+  }
+  
+  .price button{
+    border-width: 2px;
+    background-color: #f1e0d8;
+    border-color: #eb6e30;
+    border-radius: 8px;
+    height: 40px;
+    padding: 6px 30px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #eb6e30;
+    cursor: pointer;
+  }
+
+  .price button:hover{
+  font-weight: lighter;
+  cursor: pointer;
+  }  
+
+ @media screen and (max-width: 1374px) {    
+  .search input{
+    width: 250px;
+  }
+  .searchbtn {
+    margin-left: 300px;
+  }
+ }
+
+ @media screen and (max-width: 1374px){
+  .search{
+    display: none;
+  }
+ }
+
+ @media screen and (max-width: 720px){
+  nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  header{
+    height: 20vh;
+  }
+
+  .rightbtn{
+    width: 170px;
+  }
+ }
+
+ @media screen and (max-width: 396px){
+  nav{
+    height: 250px;
+  }
+  .navbar ul{
+    height: 200px;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .navbar ul li{
+    height: 34px;
+  }
+
+  header{
+    height: 30vh;
+  }
+ }
